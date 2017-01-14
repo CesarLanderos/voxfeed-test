@@ -1,0 +1,45 @@
+.sidebar-menu-item {
+    color: #95a4a6;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 0;
+    position: relative;
+
+    &.active {
+        color: #ffffff;
+        background: #00afbf;
+    }
+
+    &.profile {
+
+        &:after {
+            content: attr(data-notifications);
+            font-family: 'Source Sans Pro', sans-serif;
+            position: absolute;
+            padding: 0 5px;
+            top: 8px;
+            left: 40px;
+            font-size: 10px;
+            background: #00afbf;
+            color: white;
+            height: 15px;
+            line-height: 15px;
+            text-align: center;
+            border-radius: 15px / 2 + 1px;
+            border: 1px solid #ffffff;
+        }
+
+        img {
+            border: 1px solid #95a4a6;
+            border-radius: 50%;
+        }
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+
+    }
+}

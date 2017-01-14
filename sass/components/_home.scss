@@ -1,0 +1,18 @@
+.home-label {
+    width: 100%;
+    margin: 0;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: #17d4e6;
+    background: -webkit-linear-gradient(bottom right, #ace500, #17d4e6);
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: 100;
+
+    @media (max-width: 991px) {
+        font-size: 36px;
+    }
+}
